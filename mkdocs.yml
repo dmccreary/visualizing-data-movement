@@ -1,0 +1,50 @@
+site_name: Visualizing Data Movement
+site_description: 'A website to help students visualize the movement of data. All content licensed Creative Commons ShareAlike Attribution Noncommercial'
+site_author: 'Dan McCreary'
+repo_name: 'GitHub Repo'
+site_url: 'https://dmccreary.github.io/visualizing-data-movement'
+repo_url: 'https://github.com/dmccreary/visualizing-data-movement'
+
+nav:
+  - Home: index.md
+  - About: about.md
+  - Examples: examples.md
+  - MicroSims: sims/index.md
+  - Contact: contact.md
+ 
+edit_uri: 'blob/master/docs'
+theme:
+  name: material
+  extra_css:
+    - styles/custom.css
+  # logo: img/my-icon.png
+  # favicon: img/my-icon.png
+  palette:
+    primary: 'blue'
+    accent: 'orange'
+  include_sidebar: true
+  features:
+    - content.code.copy
+    - navigation.expand
+    - navigation.path
+    - navigation.prune
+    - navigation.indexes
+    - toc.follow
+    - navigation.top
+    # this adds the prev and next icons in the footer
+    - navigation.footer
+plugins:
+  - search
+#  - social
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - pymdownx.highlight:
+      linenums: true
+#extra:
+#  analytics:
+#    provider: google
+    # https://analytics.google.com/analytics/web/#/a1420179p349994530/admin/streams/table/4433129821
+#    property: G-XXXX
