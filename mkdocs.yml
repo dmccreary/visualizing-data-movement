@@ -10,6 +10,7 @@ nav:
   - About: about.md
   - Examples: examples.md
   - MicroSims: sims/index.md
+  - How We Built This Site: how-we-built-this-site.md
   - Contact: contact.md
  
 edit_uri: 'blob/master/docs'
