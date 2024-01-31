@@ -8,8 +8,12 @@ repo_url: 'https://github.com/dmccreary/visualizing-data-movement'
 nav:
   - Home: index.md
   - About: about.md
+  - Standards: standards.md
   - Examples: examples.md
-  - MicroSims: sims/index.md
+  - MicroSims:
+    - Introduction: sims/index.md
+    - Standards: sims/standards.md
+    - Templates: sims/templates
   - How We Built This Site: how-we-built-this-site.md
   - Contact: contact.md
  
