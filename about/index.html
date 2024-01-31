@@ -76,6 +76,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#about-the-visualizing-data-movement-project" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -248,6 +253,19 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    About
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
@@ -259,6 +277,51 @@
 
       </a>
       
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#acknowledgments" class="md-nav__link">
+    Acknowledgments
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../standards.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Standards
+  </span>
+  
+
+      </a>
     </li>
   
 
@@ -287,16 +350,42 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../sims/" class="md-nav__link">
+    
+    
+      
         
+          
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../sims/" class="md-nav__link">
+      
   
   <span class="md-ellipsis">
     MicroSims
   </span>
   
 
-      </a>
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
     </li>
   
 
@@ -356,6 +445,23 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#acknowledgments" class="md-nav__link">
+    Acknowledgments
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -373,9 +479,28 @@
   
 
 
-  <h1>About</h1>
-
-
+<h1 id="about-the-visualizing-data-movement-project">About the Visualizing Data Movement Project</h1>
+<p>Let's face it.  Static architectural diagrams suck.</p>
+<p>To be specific:</p>
+<ol>
+<li>The often don't explain what is happening in a system.</li>
+<li>They don't help users understand where bottlenecks occur in systems.</li>
+<li>They don't show us where single-point-of-failures occur.</li>
+<li>They are not good at helping us understand architectural tradeoffs.</li>
+</ol>
+<p>In short, we can do better.  Much better!</p>
+<p>It used to cost considerable time and effort to build
+simulations of working systems that show how data flows through architectures.  But with the rise of low-cost generative AI systems, this is all starting to change.  Now, even teachers are building simulations customized to each lesson, each group and each student.</p>
+<p>Our goal in this project is to build a foundation of architecture simulations that span many levels of abstraction.  At the bottom of these abstractions are digital logic gates.  At the top level, we have complete applications.  And there are many layers in between.</p>
+<p>We have used generative AI, specifically OpenAI's ChatGPT and GPT-4 to generate the first pass at many of these simulations.  We have then manually adjusted the simulations to make them correct, consistent and reusable.  You should be able to use generative AI to
+quickly customize them for new tasks.</p>
+<p>Speaking of reuse, all of the content on this site is
+licensed under <a href="../license/">Creative Commons</a>.  This means you can use the simulations in your classrooms without charge, but you can't resell these programs for profit.  We hope you give this site the appropriate attribution.</p>
+<h2 id="acknowledgments">Acknowledgments</h2>
+<p>We are indebted to many open-source developers who helped build the foundations upon which these simulations are created.</p>
+<p>We especially want to acknowledge the work that the <a href="https://processingfoundation.org/">Processing Foundation</a> has
+done to create the p5.js JavaScript libraries and tools that these systems are created with.</p>
+<p>We also want to acknowledge the work that <a href="https://www.codesavvy.org/">Code Savvy</a> has done promoting <a href="https://dmccreary.github.io/microsims/">MicroSims</a>.  Many of the visualizations on this site are inspired by their early work.</p>
 
 
 
