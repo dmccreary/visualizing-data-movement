@@ -1,5 +1,7 @@
 # Visualizing Data Movement
 
+![](img/cover.png)
+
 Welcome to the visualizing data movement website.
 
 This site contains animations of data moving through computer systems.  It includes animations from many
